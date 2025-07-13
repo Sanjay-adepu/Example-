@@ -12,7 +12,6 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.sanjay.expoapp",  // ✅ Add this line
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -38,6 +37,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "1aaa57ce-1955-4774-8792-3081776413e8"
+      }
+    },
+    "owner": "sanjay812"
   }
 }
