@@ -41,9 +41,18 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "1aaa57ce-1955-4774-8792-3081776413e8"
-      }
+        "projectId": "51ea71d1-6316-4bc0-8930-b2f4807d474f"
+      },
+      "owner": "sanjay812"
     },
-    "owner": "sanjay812"
+    "sdkVersion": "53.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "androidStatusBar": {
+      "backgroundColor": "#ffffff"
+    }
   }
 }
