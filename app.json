@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Expoapp",
-    "slug": "Expoapp",
+    "slug": "expoapp-prod", // Make sure this matches your real Expo project slug
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -39,6 +39,9 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "cli": {
+      "appVersionSource": "project"
     },
     "extra": {
       "router": {},
