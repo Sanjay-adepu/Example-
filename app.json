@@ -1,24 +1,24 @@
 {
   "expo": {
-    "name": "Expoapp",
-    "slug": "new",
+    "name": "MyApp",
+    "slug": "MyApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "expoapp",
+    "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.sanjay812.expoapp"
+      "bundleIdentifier": "com.sanjay812.myapp"   // ✅ REQUIRED
     },
     "android": {
+      "package": "com.sanjay812.myapp",            // ✅ REQUIRED
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true,
-      "package": "com.sanjay812.expoapp"
+      "edgeToEdgeEnabled": true
     },
     "web": {
       "bundler": "metro",
@@ -40,24 +40,11 @@
     "experiments": {
       "typedRoutes": true
     },
-    "cli": {
-      "appVersionSource": "project"
-    },
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "51ea71d1-6316-4bc0-8930-b2f4807d474f"
-      },
-      "owner": "sanjay812"
-    },
-    "sdkVersion": "53.0.0",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
-    "androidStatusBar": {
-      "backgroundColor": "#ffffff"
+        "projectId": "14f57c57-1be5-4363-9504-5e389b9a21f3"
+      }
     }
   }
 }
